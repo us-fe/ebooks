@@ -1,5 +1,7 @@
 import { ThemeConfig } from "vuepress";
 
+
+
 export const en: ThemeConfig = [
   {
     text: "US-FE",
@@ -34,6 +36,19 @@ export const en: ThemeConfig = [
           {
             text: "ES6 & Beyond",
             link: "/en/you-dont-know-js-v1/es6-beyond/ch1",
+          }
+        ]
+      },
+      {
+        text: "V2",
+        children: [
+          {
+            text: 'Get Started',
+            link: "/en/you-dont-know-js-v2/get-started/ch1",
+          },
+          {
+            text: 'Scope & Closures',
+            link: "/en/you-dont-know-js-v2/scope-closures/ch1",
           }
         ]
       },
@@ -77,6 +92,19 @@ export const zh: ThemeConfig = [
           {
             text: "ES6 & Beyond",
             link: "/zh/you-dont-know-js-v1/es6-beyond/ch1",
+          }
+        ]
+      },
+      {
+        text: "V2",
+        children: [
+          {
+            text: 'Get Started',
+            link: "/en/you-dont-know-js-v2/get-started/ch1",
+          },
+          {
+            text: 'Scope & Closures',
+            link: "/en/you-dont-know-js-v2/scope-closures/ch1",
           }
         ]
       },

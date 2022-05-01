@@ -7,6 +7,7 @@
 ----
 
 <img src="cover.jpg" width="300">
+<!-- <img :src="$withBase('./cover.jpg')" width="300"> -->
 
 -----
 

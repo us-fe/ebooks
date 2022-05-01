@@ -10,7 +10,7 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default defineUserConfig({
-  base: '/ebooks/',
+  // base: '/ebooks/',
   // we are using a custom theme adding this plugin
   theme: path.resolve(__dirname, "./theme"),
   title: "US-FE",
