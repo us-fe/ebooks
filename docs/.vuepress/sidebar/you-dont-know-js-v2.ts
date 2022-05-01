@@ -6,6 +6,10 @@ import { makeSidebar } from '../util';
 
 const data = [
     {
+        text: "README",
+        link: ``,
+    },
+    {
         text: "Preface",
         link: `preface`,
     },

@@ -108,7 +108,7 @@ console.log( b );
 
 Typing the preceding code into the console in Chrome should produce something like the following:
 
-<img src="fig1.png" width="500">
+<img :src="$withBase('/you-dont-know-js-v1/up-going/fig1.png')" width="500">
 
 Go on, try it. The best way to learn programming is to start coding!
 
@@ -150,11 +150,11 @@ As you may have guessed, the message you pass to `prompt(..)` -- in this case, `
 
 This should look similar to the following:
 
-<img src="fig2.png" width="500">
+<img :src="$withBase('/you-dont-know-js-v1/up-going/fig2.png')" width="500">
 
 Once you submit the input text by clicking "OK," you'll observe that the value you typed is stored in the `age` variable, which we then *output* with `console.log(..)`:
 
-<img src="fig3.png" width="500">
+<img :src="$withBase('/you-dont-know-js-v1/up-going/fig3.png')" width="500">
 
 To keep things simple while we're learning basic programming concepts, the examples in this book will not require input. But now that you've seen how to use `prompt(..)`, if you want to challenge yourself you can try to use input in your explorations of the examples.
 

@@ -1,6 +1,6 @@
 # You Don't Know JS Yet: Get Started - 2nd Edition
 
-<img src="images/cover.png" width="300">
+<img :src="$withBase('/you-dont-know-js-v2/get-started/images/cover.png')" width="300">
 
 -----
 

@@ -12,7 +12,7 @@ There's no judging you on how you write your code. My hope is that you come away
 Remember Figure 2 from back in Chapter 2?
 
 <figure>
-    <img src="images/fig2.png" width="300" alt="Colored Scope Bubbles" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig2.png')" width="300" alt="Colored Scope Bubbles" align="center">
     <figcaption><em>Fig. 2 (Ch. 2): Colored Scope Bubbles</em></figcaption>
     <br><br>
 </figure>

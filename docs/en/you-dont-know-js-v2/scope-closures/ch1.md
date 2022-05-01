@@ -32,7 +32,7 @@ You also may have heard that code can be *interpreted*, so how is that different
 Interpretation performs a similar task to compilation, in that it transforms your program into machine-understandable instructions. But the processing model is different. Unlike a program being compiled all at once, with interpretation the source code is transformed line by line; each line or statement is executed before immediately proceeding to processing the next line of the source code.
 
 <figure>
-    <img src="images/fig1.png" width="650" alt="Code Compilation and Code Interpretation" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig1.png')" width="650" alt="Code Compilation and Code Interpretation" align="center">
     <figcaption><em>Fig. 1: Compiled vs. Interpreted Code</em></figcaption>
     <br><br>
 </figure>

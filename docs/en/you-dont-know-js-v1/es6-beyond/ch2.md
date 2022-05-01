@@ -1970,7 +1970,7 @@ Don't believe any hype that `=>` is primarily, or even mostly, about fewer keyst
 
 If you prefer a visual decision chart for how/why to pick an arrow function:
 
-<img src="fig1.png">
+<img :src="$withBase('/you-dont-know-js-v1/es6-beyond/fig1.png')">
 
 ## `for..of` Loops
 

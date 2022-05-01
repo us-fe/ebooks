@@ -79,7 +79,7 @@ obj["c"];	// true
 
 It may be helpful to think of this `obj` value visually:
 
-<img src="fig4.png">
+<img :src="$withBase('/you-dont-know-js-v1/up-going/fig4.png')">
 
 Properties can either be accessed with *dot notation* (i.e., `obj.a`) or *bracket notation* (i.e., `obj["a"]`). Dot notation is shorter and generally easier to read, and is thus preferred when possible.
 
@@ -126,7 +126,7 @@ typeof arr;		// "object"
 
 It may be helpful to think of `arr` visually:
 
-<img src="fig5.png">
+<img :src="$withBase('/you-dont-know-js-v1/up-going/fig5.png')">
 
 Because arrays are special objects (as `typeof` implies), they can also have properties, including the automatically updated `length` property.
 
@@ -836,7 +836,7 @@ bar.a;		// 42 <-- delegated to `foo`
 
 It may help to visualize the `foo` and `bar` objects and their relationship:
 
-<img src="fig6.png">
+<img :src="$withBase('/you-dont-know-js-v1/up-going/fig6.png')">
 
 The `a` property doesn't actually exist on the `bar` object, but because `bar` is prototype-linked to `foo`, JavaScript automatically falls back to looking for `a` on the `foo` object, where it's found.
 

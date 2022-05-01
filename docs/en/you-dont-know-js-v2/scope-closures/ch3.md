@@ -10,7 +10,7 @@ Now it's time to dig into the nuts and bolts, so expect that things will get a l
 To refresh the context of our running example, let's recall the color-coded illustration of the nested scope bubbles, from Chapter 2, Figure 2:
 
 <figure>
-    <img src="images/fig2.png" width="500" alt="Colored Scope Bubbles" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig2.png')" width="500" alt="Colored Scope Bubbles" align="center">
     <figcaption><em>Fig. 2 (Ch. 2): Colored Scope Bubbles</em></figcaption>
     <br><br>
 </figure>

@@ -1813,7 +1813,7 @@ Be a responsible and mature developer. Learn how to use the power of coercion (b
 
 Here's a handy table made by Alex Dorey (@dorey on GitHub) to visualize a variety of comparisons:
 
-<img src="fig1.png" width="600">
+<img :src="$withBase('/you-dont-know-js-v1/types-grammar/fig1.png')" width="600">
 
 Source: https://github.com/dorey/JavaScript-Equality-Table
 

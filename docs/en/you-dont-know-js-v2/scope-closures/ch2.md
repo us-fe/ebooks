@@ -50,7 +50,7 @@ We've designated three scope colors with code comments: RED (outermost global sc
 Figure 2 helps visualize the boundaries of the scopes by drawing colored bubbles (aka, buckets) around each:
 
 <figure>
-    <img src="images/fig2.png" width="500" alt="Colored Scope Bubbles" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig2.png')" width="500" alt="Colored Scope Bubbles" align="center">
     <figcaption><em>Fig. 2: Colored Scope Bubbles</em></figcaption>
 </figure>
 
@@ -302,7 +302,7 @@ Never rely on accidental global variables. Always use strict-mode, and always fo
 To visualize nested scope resolution, I prefer yet another metaphor, an office building, as in Figure 3:
 
 <figure>
-    <img src="images/fig3.png" width="250" alt="Scope &quot;Building&quot;" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig3.png')" width="250" alt="Scope &quot;Building&quot;" align="center">
     <figcaption><em>Fig. 3: Scope "Building"</em></figcaption>
     <br><br>
 </figure>

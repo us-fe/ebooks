@@ -1,6 +1,6 @@
 # 你不懂JS：作用域与闭包
 
-<img src="cover.jpg" width="300">
+<img :src="$withBase('/you-dont-know-js-v1/scope-closures/cover.jpg')" width="300">
 
 -----
 

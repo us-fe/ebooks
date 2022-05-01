@@ -1,6 +1,6 @@
 # 你不懂JS：ES6与未来
 
-<img src="cover.jpg" width="300">
+<img :src="$withBase('/you-dont-know-js-v1/es6-beyond/cover.jpg')" width="300">
 
 -----
 

@@ -1,6 +1,6 @@
 # You Don't Know JS Yet: Scope & Closures - 2nd Edition
 
-<img src="images/cover.png" width="300">
+<img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/cover.png')" width="300">
 
 -----
 

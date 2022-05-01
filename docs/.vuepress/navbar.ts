@@ -8,7 +8,11 @@ export const en: ThemeConfig = [
     link: "https://us-fe.github.io",
   },
   {
-    text: "You-Dont-Know-JS",
+    text: "Home",
+    link: "/",
+  },
+  {
+    text: "You Don't Know JS",
     children: [
       {
         text: "V1",
@@ -64,7 +68,11 @@ export const zh: ThemeConfig = [
     link: "https://us-fe.github.io",
   },
   {
-    text: "You-Dont-Know-JS",
+    text: "首页",
+    link: "/",
+  },
+  {
+    text: "You Don't Know JS",
     children: [
       {
         text: "V1",

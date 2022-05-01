@@ -85,7 +85,7 @@ You likely wouldn't expect to walk into a building and find, framed and hanging 
 
 It's more useful to consider the direct relationship of a class to an object instance, rather than any indirect relationship between an object instance and the class it came from. **A class is instantiated into object form by a copy operation.**
 
-<img src="fig1.png">
+<img :src="$withBase('/you-dont-know-js-v1/this-object-prototypes/fig1.png')">
 
 As you can see, the arrows move from left to right, and from top to bottom, which indicates the copy operations that occur, both conceptually and physically.
 
@@ -212,7 +212,7 @@ When classes are inherited, there is a way **for the classes themselves** (not t
 
 Remember this figure from earlier:
 
-<img src="fig1.png">
+<img :src="$withBase('/you-dont-know-js-v1/this-object-prototypes/fig1.png')">
 
 Notice how for both instantiation (`a1`, `a2`, `b1`, and `b2`) *and* inheritance (`Bar`), the arrows indicate a copy operation.
 
@@ -230,7 +230,7 @@ On the surface, this seems like a powerful addition to class-orientation, giving
 
 There's another variation, the so called "Diamond Problem", which refers to the scenario where a child class "D" inherits from two parent classes ("B" and "C"), and each of those in turn inherits from a common "A" parent. If "A" provides a method `drive()`, and both "B" and "C" override (polymorph) that method, when `D` references `drive()`, which version should it use (`B:drive()` or `C:drive()`)?
 
-<img src="fig2.png">
+<img :src="$withBase('/you-dont-know-js-v1/this-object-prototypes/fig2.png')">
 
 These complications go even much deeper than this quick glance. We address them here only so we can contrast to how JavaScript's mechanisms work.
 

@@ -1,6 +1,6 @@
 # 你不懂JS: 异步与性能
 
-<img src="cover.jpg" width="300">
+<img :src="$withBase('/you-dont-know-js-v1/async-performance/cover.jpg')" width="300">
 
 -----
 

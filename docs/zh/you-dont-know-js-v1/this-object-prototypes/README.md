@@ -1,6 +1,6 @@
 # 你不懂JS: *this* 与对象原型
 
-<img src="cover.jpg" width="300">
+<img :src="$withBase('/you-dont-know-js-v1/this-object-prototypes/cover.jpg')" width="300">
 
 -----
 

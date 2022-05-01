@@ -140,7 +140,7 @@ Closure is actually a live link, preserving access to the full variable itself. 
 Figure 4 depicts the function instances and scope links:
 
 <figure>
-    <img src="images/fig4.png" width="400" alt="Function instances linked to scopes via closure" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig4.png')" width="400" alt="Function instances linked to scopes via closure" align="center">
     <figcaption><em>Fig. 4: Visualizing Closures</em></figcaption>
     <br><br>
 </figure>
@@ -675,7 +675,7 @@ add42To(9);     // 51
 Our current perspective suggests that wherever a function is passed and invoked, closure preserves a hidden link back to the original scope to facilitate the access to the closed-over variables. Figure 4, repeated here for convenience, illustrates this notion:
 
 <figure>
-    <img src="images/fig4.png" width="400" alt="Function instances linked to scopes via closure" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig4.png')" width="400" alt="Function instances linked to scopes via closure" align="center">
     <figcaption><em>Fig. 4 (repeat): Visualizing Closures</em></figcaption>
     <br><br>
 </figure>
@@ -689,7 +689,7 @@ Instead of thinking about the inner function instance of `addTo(..)` moving to t
 What gets *sent* to the RED(1) scope is **just a reference** to the in-place function instance, rather than the function instance itself. Figure 5 depicts the inner function instances remaining in place, pointed to by the RED(1) `addTo10` and `addTo42` references, respectively:
 
 <figure>
-    <img src="images/fig5.png" width="400" alt="Function instances inside scopes via closure, linked to by references" align="center">
+    <img :src="$withBase('/you-dont-know-js-v2/scope-closures/images/fig5.png')" width="400" alt="Function instances inside scopes via closure, linked to by references" align="center">
     <figcaption><em>Fig. 5: Visualizing Closures (Alternative)</em></figcaption>
     <br><br>
 </figure>

@@ -6,7 +6,7 @@
 ----
 ----
 
-<img src="cover.jpg" width="300">
+<img :src="$withBase('/you-dont-know-js-v1/types-grammar/cover.jpg')" width="300">
 
 -----
 

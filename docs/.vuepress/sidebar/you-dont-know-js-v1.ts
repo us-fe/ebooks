@@ -2,6 +2,7 @@
 import { makeSidebar } from '../util';
 
 const data = [
+    
     {
         text: "Preface",
         link: `preface`,
