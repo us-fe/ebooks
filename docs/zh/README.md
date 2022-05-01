@@ -1,0 +1,13 @@
+---
+home: true
+title: 首页
+lang: zh-CN
+# heroImage: /images/hero.png
+actions:
+  - text: You Don't Know JS
+    link: /zh/you-dont-know-js-v1/up-going/ch1
+    type: primary  
+footer: MIT Licensed | Copyright © 2022-present 前端小鱼二
+---
+
+<!-- <Vssue :title="$title" /> -->

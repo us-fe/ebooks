@@ -1,0 +1,19 @@
+{
+	"name": "ebooks",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:us-fe/ebooks.git",
+	"author": "xiaoyu2er@outlook.com",
+	"license": "MIT",
+	"scripts": {
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs"
+	},
+	"devDependencies": {
+		"vuepress": "^2.0.0-beta.39",
+		"vuepress-plugin-copyright2": "^2.0.0-beta.46",
+		"vuepress-plugin-md-enhance": "^2.0.0-beta.46",
+		"vuepress-plugin-reading-time2": "^2.0.0-beta.24",
+		"vuepress-theme-hope": "^2.0.0-beta.45"
+	}
+}
