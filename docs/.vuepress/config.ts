@@ -44,6 +44,7 @@ export default defineUserConfig({
     // 是否在导航栏内显示仓库链接，默认为 `true`
     repoDisplay: true,
     docsDir: "/docs/",
+    docsBranch: "master",
     locales: {
       '/en/': {
         selectLanguageName: 'English',
