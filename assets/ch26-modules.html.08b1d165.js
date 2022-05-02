@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s,b as a}from"./app.a957722f.js";const c={},r={id:"chapter-26-modules",tabindex:"-1"},_=s("a",{class:"header-anchor",href:"#chapter-26-modules","aria-hidden":"true"},"#",-1),d=a(" Chapter 26: Modules"),h=[_,d];function n(l,i){return t(),o("h1",r,h)}var m=e(c,[["render",n],["__file","ch26-modules.html.vue"]]);export{m as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t,a as o,b as s}from"./app.a957722f.js";const a={},c={id:"chapter-27-workers",tabindex:"-1"},_=o("a",{class:"header-anchor",href:"#chapter-27-workers","aria-hidden":"true"},"#",-1),h=s(" Chapter 27: Workers"),n=[_,h];function d(i,f){return r(),t("h1",c,n)}var k=e(a,[["render",d],["__file","ch27-workers.html.vue"]]);export{k as default};

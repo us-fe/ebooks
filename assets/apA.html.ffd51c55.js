@@ -1,0 +1,1 @@
+const t={key:"v-7ec4cf36",path:"/zh/you-dont-know-js-v1/es6-beyond/apA.html",title:"\u4F60\u4E0D\u61C2JS\uFF1AES6 \u4E0E\u672A\u6765",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651366443e3,contributors:[{name:"yanqi",email:"yanqi.zyq@antfin.com",commits:1}]},filePathRelative:"zh/you-dont-know-js-v1/es6-beyond/apA.md",copyright:""};export{t as data};

@@ -1,0 +1,1 @@
+const o={key:"v-7f2c3646",path:"/en/you-dont-know-js-v1/up-going/foreword.html",title:"You Don't Know JS: Up & Going",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651366443e3,contributors:[{name:"yanqi",email:"yanqi.zyq@antfin.com",commits:1}]},filePathRelative:"en/you-dont-know-js-v1/up-going/foreword.md",copyright:""};export{o as data};

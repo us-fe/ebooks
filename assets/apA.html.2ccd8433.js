@@ -1,0 +1,1 @@
+const e={key:"v-73737c14",path:"/en/you-dont-know-js-v1/scope-closures/apA.html",title:"You Don't Know JS: Scope & Closures",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651366443e3,contributors:[{name:"yanqi",email:"yanqi.zyq@antfin.com",commits:1}]},filePathRelative:"en/you-dont-know-js-v1/scope-closures/apA.md",copyright:""};export{e as data};

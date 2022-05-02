@@ -1,0 +1,1 @@
+const t={key:"v-7028e9b6",path:"/en/you-dont-know-js-v1/up-going/",title:"You Don't Know JS: Up & Going - 1st Edition",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651382367e3,contributors:[{name:"yanqi",email:"yanqi.zyq@antfin.com",commits:2}]},filePathRelative:"en/you-dont-know-js-v1/up-going/README.md",copyright:""};export{t as data};

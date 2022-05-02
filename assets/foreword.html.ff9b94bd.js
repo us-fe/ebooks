@@ -1,0 +1,1 @@
+const t={key:"v-1e375726",path:"/en/you-dont-know-js-v1/types-grammar/foreword.html",title:"You Don't Know JS: Types & Grammar",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651366443e3,contributors:[{name:"yanqi",email:"yanqi.zyq@antfin.com",commits:1}]},filePathRelative:"en/you-dont-know-js-v1/types-grammar/foreword.md",copyright:""};export{t as data};

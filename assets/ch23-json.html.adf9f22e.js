@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as o,b as s}from"./app.a957722f.js";const c={},r={id:"chapter-23-json",tabindex:"-1"},n=o("a",{class:"header-anchor",href:"#chapter-23-json","aria-hidden":"true"},"#",-1),_=s(" Chapter 23: JSON"),h=[n,_];function d(i,f){return t(),a("h1",r,h)}var p=e(c,[["render",d],["__file","ch23-json.html.vue"]]);export{p as default};

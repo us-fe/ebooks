@@ -1,0 +1,1 @@
+const e={key:"v-2f3875b1",path:"/en/you-dont-know-js-v1/es6-beyond/apA.html",title:"You Don't Know JS: ES6 & Beyond",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651366443e3,contributors:[{name:"yanqi",email:"yanqi.zyq@antfin.com",commits:1}]},filePathRelative:"en/you-dont-know-js-v1/es6-beyond/apA.md",copyright:""};export{e as data};

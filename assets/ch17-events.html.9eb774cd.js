@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s,a,b as c}from"./app.a957722f.js";const r={},n={id:"chapter-17-events",tabindex:"-1"},o=a("a",{class:"header-anchor",href:"#chapter-17-events","aria-hidden":"true"},"#",-1),_=c(" Chapter 17: Events"),h=[o,_];function d(i,f){return t(),s("h1",n,h)}var p=e(r,[["render",d],["__file","ch17-events.html.vue"]]);export{p as default};

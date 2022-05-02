@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as n,b as o}from"./app.a957722f.js";const s={},a={id:"chapter-10-functions",tabindex:"-1"},r=n("a",{class:"header-anchor",href:"#chapter-10-functions","aria-hidden":"true"},"#",-1),_=o(" Chapter 10: Functions"),h=[r,_];function i(d,f){return t(),c("h1",a,h)}var l=e(s,[["render",i],["__file","ch10-funtions.html.vue"]]);export{l as default};

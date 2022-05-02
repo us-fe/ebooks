@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as o,b as c}from"./app.a957722f.js";const r={},s={id:"appendix-b-strict-mode",tabindex:"-1"},d=o("a",{class:"header-anchor",href:"#appendix-b-strict-mode","aria-hidden":"true"},"#",-1),_=c(" Appendix B: Strict Mode"),n=[d,_];function i(h,p){return t(),a("h1",s,n)}var f=e(r,[["render",i],["__file","apB-strct-mode.html.vue"]]);export{f as default};

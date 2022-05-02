@@ -1,0 +1,1 @@
+const t={key:"v-323ba2d5",path:"/en/you-dont-know-js-v2/get-started/",title:"You Don't Know JS Yet: Get Started - 2nd Edition",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651382367e3,contributors:[{name:"yanqi",email:"yanqi.zyq@antfin.com",commits:2}]},filePathRelative:"en/you-dont-know-js-v2/get-started/README.md",copyright:""};export{t as data};
