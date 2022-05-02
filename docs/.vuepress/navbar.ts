@@ -1,8 +1,13 @@
-import { ThemeConfig } from "vuepress";
 
 
+import * as YDKJSV1 from './sidebar/you-dont-know-js-v1';
+import * as YDKJSV2 from './sidebar/you-dont-know-js-v2';
+import * as PJFWDV4 from './sidebar/professional-javascript-for-web-developers-v4';
 
-export const en: ThemeConfig = [
+import { makeNavbar } from './util';
+
+
+export const en = [
   {
     text: "US-FE",
     link: "https://us-fe.github.io",
@@ -16,53 +21,25 @@ export const en: ThemeConfig = [
     children: [
       {
         text: "V1",
-        children: [
-          {
-            text: 'Up & Going',
-            link: "/en/you-dont-know-js-v1/up-going/ch1",
-          },
-          {
-            text: 'Scope & Closures',
-            link: "/en/you-dont-know-js-v1/scope-closures/ch1",
-          },
-          {
-            text: 'This & Object Prototypes',
-            link: "/en/you-dont-know-js-v1/this-object-prototypes/ch1",
-          },
-          {
-            text: "Types & Grammar",
-            link: "/en/you-dont-know-js-v1/types-grammar/ch1",
-          },
-          {
-            text: "Async & Performance",
-            link: "/en/you-dont-know-js-v1/async-performance/ch1",
-          },
-          {
-            text: "ES6 & Beyond",
-            link: "/en/you-dont-know-js-v1/es6-beyond/ch1",
-          }
-        ]
+        children: makeNavbar(YDKJSV1.enData, YDKJSV1.enPrefix)
       },
       {
         text: "V2",
-        children: [
-          {
-            text: 'Get Started',
-            link: "/en/you-dont-know-js-v2/get-started/ch1",
-          },
-          {
-            text: 'Scope & Closures',
-            link: "/en/you-dont-know-js-v2/scope-closures/ch1",
-          }
-        ]
+        children: makeNavbar(YDKJSV2.enData, YDKJSV2.enPrefix)
       },
 
     ],
+
+  },
+
+  {
+    text: "Professional Javascript for Web Developers V4",
+    children: makeNavbar(PJFWDV4.enData, PJFWDV4.enPrefix)
   },
 
 ];
 
-export const zh: ThemeConfig = [
+export const zh = [
   {
     text: "US-FE",
     link: "https://us-fe.github.io",
@@ -76,48 +53,20 @@ export const zh: ThemeConfig = [
     children: [
       {
         text: "V1",
-        children: [
-          {
-            text: 'Up & Going',
-            link: "/zh/you-dont-know-js-v1/up-going/ch1",
-          },
-          {
-            text: 'Scope & Closures',
-            link: "/zh/you-dont-know-js-v1/scope-closures/ch1",
-          },
-          {
-            text: 'This & Object Prototypes',
-            link: "/zh/you-dont-know-js-v1/this-object-prototypes/ch1",
-          },
-          {
-            text: "Types & Grammar",
-            link: "/zh/you-dont-know-js-v1/types-grammar/ch1",
-          },
-          {
-            text: "Async & Performance",
-            link: "/zh/you-dont-know-js-v1/async-performance/ch1",
-          },
-          {
-            text: "ES6 & Beyond",
-            link: "/zh/you-dont-know-js-v1/es6-beyond/ch1",
-          }
-        ]
+        children: makeNavbar(YDKJSV1.zhData, YDKJSV1.zhPrefix)
       },
       {
         text: "V2",
-        children: [
-          {
-            text: 'Get Started',
-            link: "/en/you-dont-know-js-v2/get-started/ch1",
-          },
-          {
-            text: 'Scope & Closures',
-            link: "/en/you-dont-know-js-v2/scope-closures/ch1",
-          }
-        ]
+        children: makeNavbar(YDKJSV2.zhData, YDKJSV2.zhPrefix)
       },
 
     ],
+
+  },
+
+  {
+    text: "Professional Javascript for Web Developers V4",
+    children: makeNavbar(PJFWDV4.zhData, PJFWDV4.zhPrefix)
   },
 ]
 

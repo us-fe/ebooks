@@ -1,18 +1,12 @@
-
-import { makeSidebar } from '../util';
-
-// * [Get Started](get-started/README.md) | [Buy on Leanpub](https://leanpub.com/ydkjsy-get-started) | [Buy on Amazon](https://www.amazon.com/dp/B084BNMN7T)
-// * [Scope & Closures](scope-closures/README.md) | [Buy on Leanpub](https://leanpub.com/ydkjsy-scope-closures) | [Buy on Amazon](https://www.amazon.com/dp/B08634PZ3N)
-
-const data = [
-    {
-        text: "README",
-        link: ``,
-    },
-    {
-        text: "Preface",
-        link: `preface`,
-    },
+export const enData = [
+    // {
+    //     text: "README",
+    //     link: ``,
+    // },
+    // {
+    //     text: "Preface",
+    //     link: `preface`,
+    // },
     {
         text: "Get Started",
         prefix: `get-started/`,
@@ -116,13 +110,7 @@ const data = [
         ],
     }
 ];
-const enData = {
-    '/en/you-dont-know-js-v2/': data,
-}
+export const zhData = enData;
 
-const zhData = {
-    '/zh/you-dont-know-js-v2/': data,
-}
-
-export const en = makeSidebar(enData);
-export const zh = makeSidebar(enData);
+export const enPrefix = '/en/you-dont-know-js-v2/';
+export const zhPrefix = '/zh/you-dont-know-js-v2/';

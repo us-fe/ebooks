@@ -1,12 +1,9 @@
+export const enData = [
 
-import { makeSidebar } from '../util';
-
-const data = [
-    
-    {
-        text: "Preface",
-        link: `preface`,
-    },
+    // {
+    //     text: "Preface",
+    //     link: `preface`,
+    // },
     {
         text: "Up & Going",
         prefix: `up-going/`,
@@ -297,13 +294,7 @@ const data = [
         ],
     },
 ];
-const enData = {
-    '/en/you-dont-know-js-v1/': data,
-}
+export const zhData = enData;
 
-const zhData = {
-    '/zh/you-dont-know-js-v1/': data,
-}
-
-export const en = makeSidebar(enData);
-export const zh = makeSidebar(zhData);
+export const enPrefix = '/en/you-dont-know-js-v1/';
+export const zhPrefix = '/zh/you-dont-know-js-v1/';
